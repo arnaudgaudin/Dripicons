@@ -1,0 +1,19 @@
+// List Icons
+// -------------------------
+
+.@{dripicons-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: @dripicons-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.@{dripicons-css-prefix}-li {
+  position: absolute;
+  left: -@dripicons-li-width;
+  width: @dripicons-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.@{dripicons-css-prefix}-lg {
+    left: (-@dripicons-li-width + (4em / 14));
+  }
+}
