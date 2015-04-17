@@ -2,15 +2,15 @@
 // -------------------------
 
 .@{dripicons-css-prefix} {
-	font-family: 'dripicons';
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none !important;
-	speak: none;
 	display: inline-block;
-	text-decoration: none;
-	width: 1em;
-	line-height: 1em;
+	font: normal normal normal @dripicons-font-size-base/1 dripicons; // shortening font declaration
+	font-size: inherit; // can't have font-size inherit on line above, so need to override
+	text-rendering: auto; // optimizelegibility throws things off #1094
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+	// text-transform: none !important;
+	// speak: none;
+	// text-decoration: none;
+	// width: 1em;
 }
