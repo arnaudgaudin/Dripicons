@@ -1,12 +1,12 @@
-$dripicons-fonts-path: '../fonts/' !default;
+$dripicons-font-path: '../fonts/' !default;
 
 @font-face {
     font-family: 'dripicons';
-    src:url('#{$dripicons-fonts-path}dripicons.eot');
-    src:url('#{$dripicons-fonts-path}dripicons.eot?#iefix') format('embedded-opentype'),
-        url('#{$dripicons-fonts-path}dripicons.ttf') format('truetype'),
-        url('#{$dripicons-fonts-path}dripicons.svg#dripicons') format('svg'),
-        url('#{$dripicons-fonts-path}dripicons.woff') format('woff');
+    src:url('#{$dripicons-font-path}dripicons.eot');
+    src:url('#{$dripicons-font-path}dripicons.eot?#iefix') format('embedded-opentype'),
+        url('#{$dripicons-font-path}dripicons.ttf') format('truetype'),
+        url('#{$dripicons-font-path}dripicons.svg#dripicons') format('svg'),
+        url('#{$dripicons-font-path}dripicons.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
